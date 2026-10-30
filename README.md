@@ -25,12 +25,12 @@ This project sets up an **isolated virtual laboratory** using **VirtualBox** and
 
 ## 🪜 Step-by-Step Implementation
 
-1. **Prepare Tools:** Installed **VirtualBox** as the virtualization engine to run virtual machines.
+1. **Prepare Tools:** Installed **VirtualBox** as the virtualization engine to run virtual machines. (https://github.com/Clark-kn/NETWORKWALKS--CLARK-B084-WK1-CYBERSECURITY-LAB-SETUP/blob/main/WK1-fresh.png)
 2. **Extract Kali Linux:** Downloaded the Kali Linux VM package and used **WinRAR** to extract the archive. *(Note: WinRAR was used solely for the Kali image, not for VirtualBox!)*
-3. **Configure the Virtual Network:** Created a dedicated `NatNetwork` (`10.0.0.0/24`) with DHCP enabled inside VirtualBox. This allows future virtual machines to talk to each other while still accessing the internet.
-4. **Import Kali Linux:** Imported the extracted Kali machine into VirtualBox, linked its network adapter to the new NAT Network, and set up a shared folder for easy file transfers with Windows.
-5. **Set a Static IP:** Assigned a fixed IPv4 address (`10.0.0.2`) to Kali so it always stays at the same address during your labs and coursework documentation.
-6. **Save a Baseline Snapshot:** Created a clean VirtualBox snapshot named `Clean Kali - Setup`. If anything ever breaks during your practice, you can instantly roll back to this fresh state!
+3. **Configure the Virtual Network:** Created a dedicated `NatNetwork` (`10.0.0.0/24`) with DHCP enabled inside VirtualBox. This allows future virtual machines to talk to each other while still accessing the internet.(https://github.com/Clark-kn/NETWORKWALKS--CLARK-B084-WK1-CYBERSECURITY-LAB-SETUP/blob/main/WK1-NatNetwork.png)
+4. **Import Kali Linux:** Imported the extracted Kali machine into VirtualBox, linked its network adapter to the new NAT Network, and set up a shared folder for easy file transfers with Windows.(https://github.com/Clark-kn/NETWORKWALKS--CLARK-B084-WK1-CYBERSECURITY-LAB-SETUP/blob/main/WK1-NetworkKali.png)
+5. **Set a Static IP:** Assigned a fixed IPv4 address (`10.0.0.2`) to Kali so it always stays at the same address during your labs and coursework documentation.(https://github.com/Clark-kn/NETWORKWALKS--CLARK-B084-WK1-CYBERSECURITY-LAB-SETUP/blob/main/WK1-ConfiguredKALI.png)
+6. **Save a Baseline Snapshot:** Created a clean VirtualBox snapshot named `Clean Kali - Setup`. If anything ever breaks during your practice, you can instantly roll back to this fresh state!(https://github.com/Clark-kn/NETWORKWALKS--CLARK-B084-WK1-CYBERSECURITY-LAB-SETUP/blob/main/WK1-fresh.png)
 
 ---
 
